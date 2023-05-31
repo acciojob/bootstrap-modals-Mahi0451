@@ -9,19 +9,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="modal" tabindex="-1">
+	<!-- Button trigger modal -->
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#accio-modal">
+  New Modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade  d-flex justify-content-center" id="accio-modal" tabindex="-1" aria-labelledby="accio-modal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h1 class="modal-title fs-5" id="accio-modal">New Modal</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, quae. 
+		  Nobis laborum voluptate qui asperiores nulla a ab similique ut culpa nostrum
+		  ullam blanditiis accusantium, non molestiae ratione nesciunt repellendus!
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" id="open-modal" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<!--         <button type="button" class="btn btn-primary">Save changes</button> -->
       </div>
     </div>
   </div>
